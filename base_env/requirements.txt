@@ -1,0 +1,10 @@
+pandas
+numpy
+influxdb_client
+attrs
+cattrs
+pythonnet
+reactivex
+websockets
+pynecone
+redis >= 4.5.1

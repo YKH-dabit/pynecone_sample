@@ -1,0 +1,1 @@
+docker build -t pynecone-sample-project:latest .

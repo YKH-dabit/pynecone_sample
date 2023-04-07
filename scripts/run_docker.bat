@@ -1,0 +1,1 @@
+docker run --rm -it -p 3000:3000 -p 8000:8000 --name pynecone_sample pynecone-sample-project:latest
