@@ -5,21 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "運行 pynecone fullstack",
             "type": "python",
             "request": "launch",
             "module": "pynecone.pc",
             "args": [ "run" ],
             "justMyCode": true,
-            "pythonArgs": ["-Xfrozen_modules=off"],
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": false
+            // 這行用在 python3.11, 但是仍然有 bug
+            // 建議使用 python3.10 以下版本
+            "pythonArgs": ["-Xfrozen_modules=off"], 
         }
     ]
 }
